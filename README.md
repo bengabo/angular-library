@@ -1,6 +1,6 @@
 ## Create an Angular library
 
-*create a workspace, without app*
+*create a workspace, without app**
 ng new angular-library --create-application=false
 
 *create a library
