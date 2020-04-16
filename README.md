@@ -1,14 +1,14 @@
 ## Create an Angular library
 
 ng new angular-library --create-application=false
->> create a workspace, without app
+*create a workspace, without app*
 
 ng g library my-lib --prefix=nk
->> create a library
->> prefix overwrite default
+*create a library
+prefix overwrite default*
 
 ng g application my-app
->> create an Angular app
+*create an Angular app*
 
 ng build my-lib
 
@@ -17,10 +17,10 @@ ng serve my-app
 in 'package.json' > "lib:build": "ng build my-lib" ou "
 ng build my-lib --watch=true"
 npm run lib:build
->> build the library
+*build the library*
 
 in 'package.json' > "lib:package": "cd dist/my-lib && npm pack"
->> pack the library
+*pack the library*
 
 ------------------------------------------------
 
