@@ -1,19 +1,14 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild, ElementRef, ViewEncapsulation, ViewContainerRef } from '@angular/core';
 
 @Component({
   selector: 'nk-my-lib',
   template: `
-    <p>
-      my-lib works well again!!!
-    </p>
+    <h2>my-lib works well!</h2>
   `,
-  styles: []
+  styles: [],
 })
 export class MyLibComponent implements OnInit {
+  constructor() {}
 
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
+  ngOnInit() {}
 }
