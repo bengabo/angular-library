@@ -1,7 +1,7 @@
 ## Create an Angular library
 
 ng new angular-library --create-application=false
-*create a workspace, without app*
+**create a workspace, without app**
 
 ng g library my-lib --prefix=nk
 
